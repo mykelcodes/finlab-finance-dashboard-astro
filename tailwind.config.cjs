@@ -2,7 +2,23 @@
 module.exports = {
     content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Plus Jakarta Sans', 'sans-serif'],
+            },
+        },
+        fontSize: {
+            xs: ['0.75rem', 'normal'],
+            sm: ['0.875rem', '21px'],
+            base: ['1rem', '24px'],
+            lg: ['1.125rem', '27px'],
+            xl: ['1.25rem', '30px'],
+            '2xl': ['1.5rem', '36px'],
+            '3xl': ['2rem', '48px'],
+            '4xl': ['2.25rem', '54px'],
+            '5xl': ['2.5rem', '60px'],
+            '6xl': ['4.5rem', '108px'],
+        },
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
